@@ -1,0 +1,10 @@
+.DS_Store
+.repl_history
+build/
+project.xcworkspace/
+xcuserdata/
+.build/
+*.storyboardc/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/

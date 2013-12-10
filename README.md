@@ -1,0 +1,1 @@
+NanoStore sample with RubyMotion
