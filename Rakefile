@@ -3,7 +3,9 @@ require 'motion/project/template/ios'
 require 'motion-cocoapods' # pods
 require 'nano-store' # NanoStore
 require 'bubble-wrap'
-
+require 'sugarcube-repl'
+require 'bundler'
+Bundler.require
 
 Motion::Project::App.setup do |app|
   app.name = 'NanoCat'
@@ -11,5 +13,5 @@ Motion::Project::App.setup do |app|
   app.info_plist['CFBundleURLTypes'] = [
     { 'CFBundleURLName' => 'com.factor.NanoCat', }
   ]
-  app.provisioning_profile = '../cert/factor_debug.mobileprovision'
+  app.provisioning_profile = '../../cert/factor_debug.mobileprovision'
 end
